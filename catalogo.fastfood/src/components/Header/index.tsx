@@ -1,11 +1,14 @@
-import { Container } from "./styles";
+import Logo from './Logo';
+import NavBar from './NavBar';
+import { Container } from './styles';
 
 function Header() {
   return (
     <Container>
-      <h1>Header</h1>
+      <Logo></Logo>
+      <NavBar children></NavBar>
     </Container>
   );
-}
+};
 
 export default Header;
