@@ -1,9 +1,10 @@
+import CardTitle from '../CardTitle';
 import { Container } from './styles';
 
 function CardItem() {
   return (
     <Container>
-      <h1>CardItem</h1>
+       <CardTitle descricao='Exemplo'></CardTitle>
     </Container>
   );
 };

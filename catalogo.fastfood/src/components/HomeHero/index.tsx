@@ -8,7 +8,7 @@ function HomeHero() {
   return (
     <Container>
       <TitleHomeHero title=""></TitleHomeHero>
-      <CardComponent children=""></CardComponent>
+      <CardComponent></CardComponent>
       <SubMenu title=""></SubMenu>
     </Container>
   );

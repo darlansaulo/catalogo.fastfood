@@ -1,16 +1,13 @@
-import { ReactNode } from 'react';
-
+import CardItem from '../CardItem';
 import { Container } from './styles';
 
-interface CardComponentProps {
-  children: ReactNode;
-}
-
-function CardComponent({ children }: CardComponentProps) {
+function CardComponent() {
   return (
     <Container>
-      <h1>CardComponent</h1>
-      {children}
+      <CardItem></CardItem>
+      <CardItem></CardItem>
+      <CardItem></CardItem>
+      <CardItem></CardItem>
     </Container>
   );
 };
