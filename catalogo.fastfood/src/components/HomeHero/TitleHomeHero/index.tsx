@@ -1,4 +1,4 @@
-import { Container } from './styles';
+import { Container } from "./styles";
 
 interface TitleHomeHeroProps {
   title: string;
@@ -11,6 +11,6 @@ function TitleHomeHero({ title }: TitleHomeHeroProps) {
       {title}
     </Container>
   );
-};
+}
 
 export default TitleHomeHero;

@@ -4,10 +4,10 @@ import { Container } from './styles';
 function NavBarComponent() {
   return (
     <Container>
-      <ItemNavBar title='Home'></ItemNavBar>
+      <ItemNavBar title='Menu'></ItemNavBar>
       <ItemNavBar title='Contato'></ItemNavBar>
       <ItemNavBar title='Sobre'></ItemNavBar>
-      <ItemNavBar title='Menu'></ItemNavBar>
+      <ItemNavBar title='Info'></ItemNavBar>
     </Container>
   );
 };

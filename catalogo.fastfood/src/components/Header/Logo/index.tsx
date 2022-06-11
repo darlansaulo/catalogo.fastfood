@@ -1,9 +1,15 @@
+import Image from 'next/image';
 import { Container } from './styles';
 
 function Logo() {
   return (
     <Container>
-      <h1>Logo</h1>
+      <Image 
+          src='/assets/img/hamburguer-logo.webp'
+          alt='Imagem logo'
+          width={200}
+          height={200}
+      />
     </Container>
   );
 };

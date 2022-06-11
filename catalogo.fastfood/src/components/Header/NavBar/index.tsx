@@ -1,16 +1,10 @@
-import { ReactNode } from "react";
-
+import NavBarComponent from "./NavBarComponent";
 import { Container } from "./styles";
 
-interface NavBarProps {
-  children: ReactNode;
-}
-
-function NavBar({ children }: NavBarProps) {
+function NavBar() {
   return (
     <Container>
-      <h1>NavBar</h1>
-      {children}
+      <NavBarComponent/>
     </Container>
   );
 }
